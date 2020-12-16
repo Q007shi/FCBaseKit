@@ -7,6 +7,8 @@
 //
 
 #import "FCViewController.h"
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImage.h>
 
 @interface FCViewController ()
 
@@ -17,13 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

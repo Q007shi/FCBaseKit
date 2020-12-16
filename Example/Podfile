@@ -1,13 +1,13 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'FCBaseKit_Example' do
   pod 'FCBaseKit', :path => '../'
 
-  target 'FCBaseKit_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  
+  pod 'FCCollectionViewLayout'
+  pod 'Masonry'
+  pod 'SDWebImage'
+  
 end
