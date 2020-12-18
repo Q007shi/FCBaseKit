@@ -11,6 +11,8 @@
 #endif
 
 #import "FCBaseKit.h"
+#import "FCCollectionViewSectionModel.h"
+#import "FCTableViewSectionModel.h"
 
 FOUNDATION_EXPORT double FCBaseKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FCBaseKitVersionString[];
