@@ -72,6 +72,10 @@
 /** 子标题  */
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
 
+
+/** cell 选中时是否有动画  */
+@property(nonatomic, assign)BOOL deselectRowAnimated;
+
 //--------------》分割线
 /** UICollectionViewCell 为分割线时，分割线颜色  */
 @property(nonatomic, strong)UIColor *lineColor;
