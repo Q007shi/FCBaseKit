@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #私有头文件(组件外不能引用)
 #  s.private_header_files = 'FCBaseKit/Classes/Other/FCBaseKitHeader.h'
 #  s.prefix_header_contents = '#import "FCBaseKitHeader.h"' #在 **-prefix.pch 导入指定文件，且设置为组建内私有
-  s.prefix_header_file = false #在组件中不生成 **-prefix.pch
+#  s.prefix_header_file = false #在组件中不生成 **-prefix.pch
   
   # s.resource_bundles = {
   #   'FCBaseKit' => ['FCBaseKit/Assets/*.png']

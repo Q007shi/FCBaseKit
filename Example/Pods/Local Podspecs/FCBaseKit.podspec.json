@@ -18,6 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FCBaseKit/Classes/**/*.{h,m}",
-  "prefix_header_file": false
+  "source_files": "FCBaseKit/Classes/**/*.{h,m}"
 }

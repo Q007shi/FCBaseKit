@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "FCBaseKitHeader.h"
 
 @interface FCCollectionViewSectionModel : NSObject
