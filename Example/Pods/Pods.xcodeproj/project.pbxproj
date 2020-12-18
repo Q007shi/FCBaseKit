@@ -11,6 +11,10 @@
 		2B4044DDCAF9CDF703CE4F8F566645E7 /* Pods-FCBaseKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B373E334E0A542E50C221F0DDCEE5D13 /* Pods-FCBaseKit_Example-dummy.m */; };
 		3169BAC82F88492F2841C46094B7F362 /* FCBaseKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA20F55B582D323C9263EFB13A25A1E1 /* FCBaseKitHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBF8C27D5E60A210D5FC77F0C41982B /* FCBaseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8F32D52FB193685AB0979DD9B23677 /* FCBaseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551B193A258C77CD00688608 /* FCCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 551B1938258C77CD00688608 /* FCCollectionViewCell.h */; };
+		551B193B258C77CD00688608 /* FCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B1939258C77CD00688608 /* FCCollectionViewCell.m */; };
+		551B1943258C781000688608 /* FCTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 551B1941258C781000688608 /* FCTableViewCell.h */; };
+		551B1944258C781000688608 /* FCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B1942258C781000688608 /* FCTableViewCell.m */; };
 		6536E2E6D26A49A6B3ED0B224EB872BC /* Pods-FCBaseKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C72A5C8D7EB11930B6AF1B7F4A1246A1 /* Pods-FCBaseKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97579519823EB263B9716D0951B4EAE3 /* FCBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF706A82FA5CAA65C25DDA80AC8FE38B /* FCBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B610A82030F6B212C3BE88E1AD63A568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -33,16 +37,20 @@
 
 /* Begin PBXFileReference section */
 		1F20018823D69A0DC85D6DC90DFDD627 /* FCCollectionViewSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCCollectionViewSectionModel.h; sourceTree = "<group>"; };
-		25F31EED098F8D666FE2B6EEF3CABFFE /* FCBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25F31EED098F8D666FE2B6EEF3CABFFE /* FCBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FCBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26A017D31FEA93D71C3D2A6C9611E207 /* FCBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCBaseKit.release.xcconfig; sourceTree = "<group>"; };
 		2AB1F8B44DFC8B6F809FD48A3C4F6A22 /* Pods-FCBaseKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCBaseKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E8B89B832CDA8FEE2FD9A9222FF291F /* Pods-FCBaseKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCBaseKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		54CD9D62BF3A544B14B0302B96FF9ED9 /* Pods_FCBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCBaseKit_Example.framework; path = "Pods-FCBaseKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CD9D62BF3A544B14B0302B96FF9ED9 /* Pods_FCBaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCBaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B1938258C77CD00688608 /* FCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCollectionViewCell.h; sourceTree = "<group>"; };
+		551B1939258C77CD00688608 /* FCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCollectionViewCell.m; sourceTree = "<group>"; };
+		551B1941258C781000688608 /* FCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCTableViewCell.h; sourceTree = "<group>"; };
+		551B1942258C781000688608 /* FCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCTableViewCell.m; sourceTree = "<group>"; };
 		8684F2597A92DB6A8179475A62955C82 /* FCBaseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCBaseKit-Info.plist"; sourceTree = "<group>"; };
-		9B2B84C0BB8F9793A7CB2FE51F94FFDF /* FCBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCBaseKit.framework; path = FCBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2B84C0BB8F9793A7CB2FE51F94FFDF /* FCBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB4FC124F7964AA970BE6A71BF56E61 /* FCTableViewSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCTableViewSectionModel.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F0898A8FB0F444EC8E29B203EB4800 /* FCCollectionViewSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCCollectionViewSectionModel.m; sourceTree = "<group>"; };
 		AEC439F3D670A0B1362DDB2C8DEEEB18 /* Pods-FCBaseKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCBaseKit_Example-Info.plist"; sourceTree = "<group>"; };
 		B373E334E0A542E50C221F0DDCEE5D13 /* Pods-FCBaseKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCBaseKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -55,8 +63,8 @@
 		D0566851EC9D51767D8E57EC7A0D0368 /* FCBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCBaseKit-prefix.pch"; sourceTree = "<group>"; };
 		D3003EAE6CF6E0B943097416A5DD3D5C /* Pods-FCBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DEC82F471FB059605C1EE686D0A7BC0F /* FCBaseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCBaseKit.modulemap; sourceTree = "<group>"; };
-		DF0C4293C75B7AA97FF8EF7FEE9B080F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E6042A0FA761AB2F777189B88DBD21BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF0C4293C75B7AA97FF8EF7FEE9B080F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6042A0FA761AB2F777189B88DBD21BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ED36AB62731AAA8DF3C1A1F205E0CBB0 /* Pods-FCBaseKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCBaseKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4FA0DE625F8F623534FD51288BA7D14 /* Pods-FCBaseKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCBaseKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F82FF2A4D00FC6D9BA9E4FF3ABC2E050 /* Pods-FCBaseKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCBaseKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -94,9 +102,9 @@
 		380432E059DDD6D6CFC4940AD60D8D28 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				551B1937258C77B200688608 /* View */,
 				54581CD89BF98722F3C28E019137D655 /* Model */,
 			);
-			name = CollectionView;
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
@@ -116,16 +124,33 @@
 				1F20018823D69A0DC85D6DC90DFDD627 /* FCCollectionViewSectionModel.h */,
 				A3F0898A8FB0F444EC8E29B203EB4800 /* FCCollectionViewSectionModel.m */,
 			);
-			name = Model;
 			path = Model;
+			sourceTree = "<group>";
+		};
+		551B1937258C77B200688608 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				551B1938258C77CD00688608 /* FCCollectionViewCell.h */,
+				551B1939258C77CD00688608 /* FCCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		551B1940258C780200688608 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				551B1941258C781000688608 /* FCTableViewCell.h */,
+				551B1942258C781000688608 /* FCTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		58E16D7AB1FDD610A0B277944CAFA58E /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				551B1940258C780200688608 /* View */,
 				AD804363A4209E5128978F5EEE398355 /* Model */,
 			);
-			name = TableView;
 			path = TableView;
 			sourceTree = "<group>";
 		};
@@ -145,7 +170,6 @@
 				9CB4FC124F7964AA970BE6A71BF56E61 /* FCTableViewSectionModel.h */,
 				CD60C09AF3B6FA3EC9C61CC6AD66361E /* FCTableViewSectionModel.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -262,10 +286,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551B193A258C77CD00688608 /* FCCollectionViewCell.h in Headers */,
 				4CBF8C27D5E60A210D5FC77F0C41982B /* FCBaseKit-umbrella.h in Headers */,
 				97579519823EB263B9716D0951B4EAE3 /* FCBaseKit.h in Headers */,
 				3169BAC82F88492F2841C46094B7F362 /* FCBaseKitHeader.h in Headers */,
 				E08D3662AEC6365F645BABB7AFC4B82C /* FCCollectionViewSectionModel.h in Headers */,
+				551B1943258C781000688608 /* FCTableViewCell.h in Headers */,
 				09280A4022FDC8C2B020D69D37FD4378 /* FCTableViewSectionModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A86F7A3DBF883959F35E048D4A1762 /* FCBaseKit-dummy.m in Sources */,
+				551B193B258C77CD00688608 /* FCCollectionViewCell.m in Sources */,
+				551B1944258C781000688608 /* FCTableViewCell.m in Sources */,
 				FCD8BE38B298B9A923218C2A4483A014 /* FCCollectionViewSectionModel.m in Sources */,
 				F9A3BBD9AB306BDA46AEA631EC8F3BCF /* FCTableViewSectionModel.m in Sources */,
 			);
@@ -536,8 +564,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
