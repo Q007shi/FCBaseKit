@@ -49,6 +49,7 @@
 
 @end
 
+
 @interface FCCollectionViewItemModel : NSObject
 
 /** 事件集合  */

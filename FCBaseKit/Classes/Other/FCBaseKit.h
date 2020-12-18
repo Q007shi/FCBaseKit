@@ -8,7 +8,9 @@
 #ifndef FCBaseKit_h
 #define FCBaseKit_h
 
-
+//Model
+#import "FCTableViewSectionModel.h"
+#import "FCCollectionViewSectionModel.h"
 
 
 #endif /* FCBaseKit_h */

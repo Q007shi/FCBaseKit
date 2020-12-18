@@ -44,6 +44,7 @@
 
 @end
 
+
 @interface FCTableViewCellModel : NSObject
 
 /** 事件集合  */
