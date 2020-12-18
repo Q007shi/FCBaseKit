@@ -7,6 +7,13 @@
 
 #import "FCTableViewSectionModel.h"
 
+@interface FCTableViewSectionModel ()
+
+/** <#aaa#>  */
+@property(nonatomic, strong)NSMutableArray<FCTableViewCellModel *> *cells;
+
+@end
+
 @implementation FCTableViewSectionModel
 
 - (NSMutableDictionary *)blockActions{
@@ -14,6 +21,13 @@
         _blockActions = NSMutableDictionary.dictionary;
     }
     return _blockActions;
+}
+
+- (NSMutableArray<FCTableViewCellModel *> *)cells{
+    if (!_cells) {
+        _cells = NSMutableArray.array;
+    }
+    return _cells;
 }
 
 @end

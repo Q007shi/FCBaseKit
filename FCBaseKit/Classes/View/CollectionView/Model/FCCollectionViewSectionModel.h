@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FCBaseKitHeader.h"
 
+@class FCCollectionViewItemModel;
 @interface FCCollectionViewSectionModel : NSObject
 
 /** 事件集合  */
@@ -48,6 +49,9 @@
 @property(nonatomic, strong)NSAttributedString *titleAttri;
 /** 子标题  */
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
+
+/** <#aaa#>  */
+@property(nonatomic, strong, readonly)NSMutableArray<FCCollectionViewItemModel *> *items;
 
 @end
 
