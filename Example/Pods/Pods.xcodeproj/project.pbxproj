@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		09280A4022FDC8C2B020D69D37FD4378 /* FCTableViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4FC124F7964AA970BE6A71BF56E61 /* FCTableViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B4044DDCAF9CDF703CE4F8F566645E7 /* Pods-FCBaseKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B373E334E0A542E50C221F0DDCEE5D13 /* Pods-FCBaseKit_Example-dummy.m */; };
+		3169BAC82F88492F2841C46094B7F362 /* FCBaseKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA20F55B582D323C9263EFB13A25A1E1 /* FCBaseKitHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBF8C27D5E60A210D5FC77F0C41982B /* FCBaseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8F32D52FB193685AB0979DD9B23677 /* FCBaseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6536E2E6D26A49A6B3ED0B224EB872BC /* Pods-FCBaseKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C72A5C8D7EB11930B6AF1B7F4A1246A1 /* Pods-FCBaseKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC55FD6E2DFF14C6643631A3AE722FA /* FCBaseKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA20F55B582D323C9263EFB13A25A1E1 /* FCBaseKitHeader.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		97579519823EB263B9716D0951B4EAE3 /* FCBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF706A82FA5CAA65C25DDA80AC8FE38B /* FCBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B610A82030F6B212C3BE88E1AD63A568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E08D3662AEC6365F645BABB7AFC4B82C /* FCCollectionViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F20018823D69A0DC85D6DC90DFDD627 /* FCCollectionViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -264,7 +264,7 @@
 			files = (
 				4CBF8C27D5E60A210D5FC77F0C41982B /* FCBaseKit-umbrella.h in Headers */,
 				97579519823EB263B9716D0951B4EAE3 /* FCBaseKit.h in Headers */,
-				8AC55FD6E2DFF14C6643631A3AE722FA /* FCBaseKitHeader.h in Headers */,
+				3169BAC82F88492F2841C46094B7F362 /* FCBaseKitHeader.h in Headers */,
 				E08D3662AEC6365F645BABB7AFC4B82C /* FCCollectionViewSectionModel.h in Headers */,
 				09280A4022FDC8C2B020D69D37FD4378 /* FCTableViewSectionModel.h in Headers */,
 			);
