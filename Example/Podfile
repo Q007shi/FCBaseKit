@@ -6,8 +6,8 @@ target 'FCBaseKit_Example' do
   pod 'FCBaseKit', :path => '../'
 
   
-  pod 'FCCollectionViewLayout'
-  pod 'Masonry'
-  pod 'SDWebImage'
+#  pod 'FCCollectionViewLayout'
+#  pod 'Masonry'
+#  pod 'SDWebImage'
   
 end

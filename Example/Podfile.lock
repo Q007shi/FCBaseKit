@@ -1,37 +1,16 @@
 PODS:
   - FCBaseKit (0.0.1)
-  - FCCollectionViewLayout (0.0.1):
-    - FCCollectionViewLayout/ObjC (= 0.0.1)
-    - FCCollectionViewLayout/Swift (= 0.0.1)
-  - FCCollectionViewLayout/ObjC (0.0.1)
-  - FCCollectionViewLayout/Swift (0.0.1)
-  - Masonry (1.1.0)
-  - SDWebImage (5.8.1):
-    - SDWebImage/Core (= 5.8.1)
-  - SDWebImage/Core (5.8.1)
 
 DEPENDENCIES:
   - FCBaseKit (from `../`)
-  - FCCollectionViewLayout
-  - Masonry
-  - SDWebImage
-
-SPEC REPOS:
-  trunk:
-    - FCCollectionViewLayout
-    - Masonry
-    - SDWebImage
 
 EXTERNAL SOURCES:
   FCBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCBaseKit: 259a074ae4c802481a598dd5bf8867e63c5bdd75
-  FCCollectionViewLayout: f5c888fe63a07d41ebdf521e256af86c5cabdd23
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  FCBaseKit: 3bece82312a8935da352533e5ca971e9010cb79b
 
-PODFILE CHECKSUM: 87cfc98b522127a096320a56729f505428a67ce5
+PODFILE CHECKSUM: a6dc3d34cf34910526d0d06948d32b048bd8e57b
 
 COCOAPODS: 1.9.1

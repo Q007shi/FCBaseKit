@@ -7,8 +7,6 @@
 //
 
 #import "FCViewController.h"
-#import <Masonry/Masonry.h>
-#import <SDWebImage/SDWebImage.h>
 
 @interface FCViewController ()
 
