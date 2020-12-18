@@ -19,5 +19,6 @@
     "ios": "8.0"
   },
   "public_header_files": "FCBaseKit/Classes/Other/FCBaseKit.h",
+  "prefix_header_contents": "#import \"FCBaseKitHeader.h\"",
   "source_files": "FCBaseKit/Classes/**/*"
 }
