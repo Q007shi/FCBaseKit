@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCBaseKit: ab605e995c15d8c11b781b4ef8afa674f553fb09
+  FCBaseKit: 4d0df4cac6010d7830277ef3f1c1d58c78841314
   FCCollectionViewLayout: f5c888fe63a07d41ebdf521e256af86c5cabdd23
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
