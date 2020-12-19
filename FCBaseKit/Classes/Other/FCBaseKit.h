@@ -12,5 +12,9 @@
 #import "FCTableViewSectionModel.h"
 #import "FCCollectionViewSectionModel.h"
 
+//View
+#import "FCCollectionViewCell.h"
+#import "FCTableViewCell.h"
+
 
 #endif /* FCBaseKit_h */
