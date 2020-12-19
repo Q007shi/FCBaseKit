@@ -7,6 +7,7 @@
 //
 
 #import "FCViewController.h"
+#import <FCBaseKit/FCTableViewCell.h>
 
 @interface FCViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    FCTableViewCell *cell;
 }
 
 

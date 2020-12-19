@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   
   
-  s.source_files = 'FCBaseKit/Classes/**/*'
+  s.source_files = 'FCBaseKit/Classes/**/*.{h,m}'
   
   
   #公开头文件(组件内外都可以引用)
