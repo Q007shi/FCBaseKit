@@ -98,6 +98,10 @@
 /** <#aaa#>  */
 @property(nonatomic)SEL selector;
 //---------------《
+/** 控制器专场动画  */
+@property(nonatomic, assign)FCBaseKitVCAnimationType vcAnimationType;
+/** 控制器专场时是否加动画  */
+@property(nonatomic, assign)BOOL vcAnimation;
 
 
 

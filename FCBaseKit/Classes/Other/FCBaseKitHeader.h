@@ -15,5 +15,12 @@ typedef NS_ENUM(NSInteger, FCBaseKitSizeType){
     FCBaseKitSizeTypeFixHeight,
 };
 
+typedef NS_ENUM(NSInteger, FCBaseKitVCAnimationType){
+    FCBaseKitVCAnimationTypePush,
+    FCBaseKitVCAnimationTypePop,
+    FCBaseKitVCAnimationTypePresent,
+    FCBaseKitVCAnimationTypeDismiss,
+};
+
 
 #endif /* FCBaseKitHeader_h */
