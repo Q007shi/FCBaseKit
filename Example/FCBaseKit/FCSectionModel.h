@@ -8,7 +8,8 @@
 
 #import <FCBaseKit/FCCollectionViewSectionModel.h>
 
-@interface FCSectionModel : FCCollectionViewSectionModel
+@class FCItemModel;
+@interface FCSectionModel<T: FCItemModel *> : FCCollectionViewSectionModel<T>
 
 @end
 

@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FCBaseKitHeader.h"
 
-@class FCTableViewCellModel;
-@interface FCTableViewSectionModel<__covariant T: FCTableViewCellModel *> : NSObject
+@interface FCTableViewSectionModel<T: id> : NSObject
 
 /** 事件集合  */
 @property(nonatomic, strong)NSMutableDictionary *blockActions;

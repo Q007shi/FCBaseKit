@@ -11,8 +11,7 @@
 
 //__contravariant : 父类可转换为子类
 //__covariant : 当前类和其子类
-@class FCCollectionViewItemModel;
-@interface FCCollectionViewSectionModel<__covariant T: FCCollectionViewItemModel *> : NSObject
+@interface FCCollectionViewSectionModel<T: id> : NSObject
 
 /** 事件集合  */
 @property(nonatomic, strong)NSMutableDictionary *blockActions;
@@ -68,6 +67,12 @@
 @property(nonatomic)Class itemClass;
 /** UICollectionViewCell 的size  */
 @property(nonatomic)CGSize itemSize;
+
+/** 最大宽度  sizeType == FCBaseKitSizeTypeFixHeight */
+@property(nonatomic, assign)CGFloat maxWidth;
+/** 最大高度 sizeType == FCBaseKitSizeTypeFixWidth */
+@property(nonatomic, assign)CGFloat maxHeight;
+
 /** UICollectionViewCell 的背景颜色  */
 @property(nonatomic, strong)UIColor *backgroundColor;
 /** UICollectionViewCell 的索引  */

@@ -21,7 +21,7 @@
 {
     [super viewDidLoad];
     
-    FCCollectionViewSectionModel<FCItemModel *> *sectionM;
+    FCSectionModel<FCItemModel *> *sectionM;
     [sectionM.items addObject:FCItemModel.new];
     [sectionM.items addObject:FCCollectionViewItemModel.new];
     
