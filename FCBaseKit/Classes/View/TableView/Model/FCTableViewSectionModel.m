@@ -10,7 +10,7 @@
 @interface FCTableViewSectionModel ()
 
 /** <#aaa#>  */
-@property(nonatomic, strong)NSMutableArray<FCTableViewCellModel *> *cells;
+@property(nonatomic, strong)NSMutableArray *cells;
 
 @end
 
@@ -23,7 +23,7 @@
     return _blockActions;
 }
 
-- (NSMutableArray<FCTableViewCellModel *> *)cells{
+- (NSMutableArray *)cells{
     if (!_cells) {
         _cells = NSMutableArray.array;
     }

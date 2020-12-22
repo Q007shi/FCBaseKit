@@ -10,7 +10,7 @@
 #import "FCBaseKitHeader.h"
 
 @class FCTableViewCellModel;
-@interface FCTableViewSectionModel : NSObject
+@interface FCTableViewSectionModel<__covariant T: FCTableViewCellModel *> : NSObject
 
 /** 事件集合  */
 @property(nonatomic, strong)NSMutableDictionary *blockActions;
@@ -46,7 +46,7 @@
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
 
 /** <#aaa#>  */
-@property(nonatomic, strong, readonly)NSMutableArray<FCTableViewCellModel *> *cells;
+@property(nonatomic, strong, readonly)NSMutableArray<__kindof T> *cells;
 
 @end
 

@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "FCBaseKitHeader.h"
 
+//__contravariant : 父类可转换为子类
+//__covariant : 当前类和其子类
 @class FCCollectionViewItemModel;
-@interface FCCollectionViewSectionModel : NSObject
+@interface FCCollectionViewSectionModel<__covariant T: FCCollectionViewItemModel *> : NSObject
 
 /** 事件集合  */
 @property(nonatomic, strong)NSMutableDictionary *blockActions;
@@ -50,8 +52,8 @@
 /** 子标题  */
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
 
-/** <#aaa#>  */
-@property(nonatomic, strong, readonly)NSMutableArray<FCCollectionViewItemModel *> *items;
+/** __kindof 表示 items 中 可以是 T 或 T的子类  */
+@property(nonatomic, strong, readonly)NSMutableArray<__kindof T> *items;
 
 @end
 

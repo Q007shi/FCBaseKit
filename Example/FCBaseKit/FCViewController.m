@@ -9,6 +9,8 @@
 #import "FCViewController.h"
 #import <FCBaseKit/FCTableViewCell.h>
 
+#import "FCSectionModel.h"
+
 @interface FCViewController ()
 
 @end
@@ -18,7 +20,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    FCTableViewCell *cell;
+    
+    FCCollectionViewSectionModel<FCItemModel *> *sectionM;
+    [sectionM.items addObject:FCItemModel.new];
+    [sectionM.items addObject:FCCollectionViewItemModel.new];
+    
 }
 
 

@@ -10,7 +10,7 @@
 @interface FCCollectionViewSectionModel ()
 
 /** <#aaa#>  */
-@property(nonatomic, strong)NSMutableArray<FCCollectionViewItemModel *> *items;
+@property(nonatomic, strong)NSMutableArray *items;
 
 @end
 
@@ -22,7 +22,13 @@
     }
     return _blockActions;
 }
-- (NSMutableArray<FCCollectionViewItemModel *> *)items{
+//- (NSMutableArray<FCCollectionViewItemModel *> *)items{
+//    if (!_items) {
+//        _items = NSMutableArray.array;
+//    }
+//    return _items;
+//}
+- (NSMutableArray *)items{
     if (!_items) {
         _items = NSMutableArray.array;
     }
