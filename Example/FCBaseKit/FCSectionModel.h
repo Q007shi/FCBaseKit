@@ -15,4 +15,7 @@
 
 @interface FCItemModel : FCCollectionViewItemModel
 
+/** <#aaa#>  */
+@property(nonatomic, assign)BOOL abc;
+
 @end

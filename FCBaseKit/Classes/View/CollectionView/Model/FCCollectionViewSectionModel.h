@@ -11,7 +11,7 @@
 
 //__contravariant : 父类可转换为子类
 //__covariant : 当前类和其子类
-@interface FCCollectionViewSectionModel<T: id> : NSObject
+@interface FCCollectionViewSectionModel<T> : NSObject
 
 /** 事件集合  */
 @property(nonatomic, strong)NSMutableDictionary *blockActions;
@@ -52,7 +52,7 @@
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
 
 /** __kindof 表示 items 中 可以是 T 或 T的子类  */
-@property(nonatomic, strong, readonly)NSMutableArray<__kindof T> *items;
+@property(nonatomic, strong, readonly)NSMutableArray<T> *itemModels;
 
 @end
 
