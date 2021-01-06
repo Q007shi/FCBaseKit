@@ -54,8 +54,8 @@
 /** __kindof 表示 items 中 可以是 T 或 T的子类  */
 @property(nonatomic, strong, readonly)NSMutableArray<T> *itemModels;
 
-/** 内容边距  */
-@property(nonatomic)UIEdgeInsets contentEdgeInsets;
+/** 组内边距  */
+@property(nonatomic)UIEdgeInsets insetForSection;
 
 @end
 
