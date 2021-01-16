@@ -57,6 +57,9 @@
 /** 组内边距  */
 @property(nonatomic)UIEdgeInsets insetForSection;
 
+/** section 之间的间距  */
+@property(nonatomic, assign)CGFloat sectionSpace;
+
 @end
 
 
