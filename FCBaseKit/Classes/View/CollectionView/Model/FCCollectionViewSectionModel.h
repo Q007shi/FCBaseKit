@@ -89,6 +89,8 @@
 @property(nonatomic, strong)NSAttributedString *titleAttri;
 /** 子标题  */
 @property(nonatomic, strong)NSAttributedString *subTitleAttri;
+/** 提示文本  */
+@property(nonatomic, strong)NSAttributedString *attributedPlaceholder;
 
 //--------------》分割线
 /** UICollectionViewCell 为分割线时，分割线颜色  */
