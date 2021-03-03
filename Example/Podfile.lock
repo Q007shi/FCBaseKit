@@ -1,5 +1,5 @@
 PODS:
-  - FCBaseKit (0.0.1)
+  - FCBaseKit (0.0.2)
 
 DEPENDENCIES:
   - FCBaseKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCBaseKit: 259a074ae4c802481a598dd5bf8867e63c5bdd75
+  FCBaseKit: 915c066998fa5eaba01258aea7c6535e560e278e
 
 PODFILE CHECKSUM: a6dc3d34cf34910526d0d06948d32b048bd8e57b
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

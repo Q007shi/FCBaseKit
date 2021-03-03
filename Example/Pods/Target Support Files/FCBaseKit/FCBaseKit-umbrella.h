@@ -14,6 +14,7 @@
 #import "FCBaseKitHeader.h"
 #import "FCCollectionViewSectionModel.h"
 #import "FCCollectionViewCell.h"
+#import "FCFixTypeCollectionViewCell.h"
 #import "FCTableViewSectionModel.h"
 #import "FCTableViewCell.h"
 
